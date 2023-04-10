@@ -1,0 +1,24 @@
+.Footer {
+  background-color: var(--dark-blue);
+  border: 10px solid var(--light-white);
+  color: var(--light-white);
+}
+
+.Contact {
+  display: flex;
+  justify-content: center;
+  margin: auto 45%;
+}
+
+a {
+  margin: auto;
+  color: var(--dark-red);
+}
+
+.Footer p {
+  text-align: center;
+}
+
+.Creditos p{
+  font-size: 13px;
+}

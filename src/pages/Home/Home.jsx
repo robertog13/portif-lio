@@ -3,6 +3,7 @@ import { RiReactjsLine } from "react-icons/ri";
 import Footer from '../../components/Footer.jsx/Footer';
 import Header from '../../components/Header/Header';
 import TecCard from '../../components/TechnologiesCard/TechnologyCard';
+import "./Home.css";
 
 function Home() {
   return (
@@ -10,8 +11,11 @@ function Home() {
     <Header />
     <div>
       <div className='FirstSection'>
-        <h1>Roberto Gonalves</h1>
-        <h2>Desenvolvedor Web</h2>
+        <div className='TitlePage'>
+          <h1>Roberto Gonalves</h1>
+          <h2>Desenvolvedor Web</h2>
+        </div>
+        <img src="src/assets/let-s-research!-retro-futurism.jpg" alt="Robot" />
       </div>
 
       <div className='SecondSection'>

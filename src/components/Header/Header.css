@@ -1,0 +1,29 @@
+.Header {
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: space-around;
+}
+
+.Header img {
+  background-color: var(--light-white);
+  border-radius: 50px;
+  padding: 8px;
+  margin: auto 0;
+  width: 55px;
+  height: 60px;
+} 
+
+.HeaderTitle {
+  color: var(--dark-red);
+      -webkit-text-stroke: 3px var(--light-white);
+  text-shadow: 3px 1px 1px var(--dark-red);
+}
+
+.Navegation, span {
+  margin: auto 0;
+}
+
+.Link {
+  margin: 0 10px;
+  color: var(--light-white);
+}

@@ -1,0 +1,18 @@
+.FirstSection {
+  background-color: var(--light-white);
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+.FirstSection img { 
+  margin: 20px 0;
+  box-shadow: 0px 0px 1px 5px var(--light-white);
+  transform: rotate(-8deg);
+}
+
+.TitlePage {
+  color: var(--dark-red);
+      -webkit-text-stroke: 3px var(--light-white);
+  text-shadow: 4px 1px 1px var(--dark-red);
+  margin: auto 0;
+}
