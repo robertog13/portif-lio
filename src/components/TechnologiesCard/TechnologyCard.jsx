@@ -1,4 +1,5 @@
 import React from 'react';
+import "./TechnologyCard.css"
 
 function TecCard(prop) {
   const { iconsTec, technology, infoTec } = prop;

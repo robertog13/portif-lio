@@ -6,7 +6,7 @@ import "./Header.css"
 function Header() {
   return (
   <div className='Header'>
-    <img src="src/assets/top-hat.png" alt="" />
+    <img src="src/assets/top-hat.png" alt="top hat" />
     <h1 className='HeaderTitle'>Roberto Gonçalves</h1>
     <nav className='Navegation'>
      <Link className="Link" to="/"><RiHome2Fill size={20} /></Link>

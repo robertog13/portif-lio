@@ -3,8 +3,12 @@
   height: 400px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .FirstSection img { 
+  max-width: 600px;
+  min-width: 400px;
   margin: 20px 0;
   box-shadow: 0px 0px 1px 5px var(--light-white);
   transform: rotate(-8deg);
@@ -15,4 +19,75 @@
       -webkit-text-stroke: 3px var(--light-white);
   text-shadow: 4px 1px 1px var(--dark-red);
   margin: auto 0;
+}
+
+.TitlePage h1 {
+  font-size: 50px;
+}
+
+.TitlePage h2 {
+  font-size: 30px;
+}
+.SecondSection {
+  background-color: var(--dark-blue);
+  margin: -20px 0 0 0;
+  padding: 50px 0;
+}
+
+.SecondSection h3 {
+  color: var(--dark-red);
+  -webkit-text-stroke: 3px var(--light-white);
+  font-size: 40px;
+  margin: 20px 60px 60px ;
+}
+
+.SecondSection p {
+  color: var(--light-white);
+  font-size: 18px;
+  margin: auto;
+}
+
+.ImageContainer {
+  width: 1000px;
+  margin: auto 20px auto 0;
+  border: 15px solid var(--light-white);
+}
+
+.ImageContainer img {
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: contain;
+  margin-bottom: -5px;
+}
+
+.AboutInfo {
+  display: flex;
+  margin: auto 10%;
+}
+
+.ThirdSection {
+  background-color: var(--light-white);
+  margin: -20px 0 0 0;
+  padding: 50px 0;
+}
+
+.ThirdSection h3 {
+  color: var(--dark-red);
+      -webkit-text-stroke: 3px var(--light-white);
+      text-shadow: 3px 1px 1px var(--dark-red);
+  font-size: 40px;
+  margin: 20px 60px 60px;
+}
+
+.TecCardSection {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 10%;
+}
+
+.IconTec {
+  color: var(--dark-red);
 }

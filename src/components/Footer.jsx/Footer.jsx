@@ -12,8 +12,8 @@ function Footer() {
     </div>
 
     <div className='Creditos'>
-      <p>Ilustrações feitas por : <br />
-      <a href="https://br.freepik.com/vetores-gratis/desenho-de-robo-engracado-vector_9374792.htm#page=2&query=maquina%20de%20escrever%20Steam%20Punk%20art&position=41&from_view=search&track=ais">gleb_guralnyk</a> no Freepik
+      <p>
+      <a href="https://www.flaticon.com/free-icons/steampunk" title="steampunk icons">Steampunk icons created by Smashicons - Flaticon</a>
       </p>
     </div>
   </div>
